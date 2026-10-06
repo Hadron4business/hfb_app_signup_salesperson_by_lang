@@ -37,7 +37,7 @@ registered on. If that language has none, the Salesperson set on the website
 It happens once, at signup. A salesperson changed later by your staff is
 never overwritten.
 """,
-    'version': "18.0.1.0.1",
+    'version': "18.0.1.0.2",
     'author': "Hadron for Business sp. z o.o.",
     'website': "http://hadronforbusiness.com",
     'license': "OPL-1",

@@ -16,7 +16,7 @@
 # all copies or substantial portions of the Software.
 #
 #################################################################################
-"""	@version	18.0.1.0.1
+"""	@version	18.0.1.0.2
 	@owner  Hadron for Business
 	@author Hadron for Business sp. z o.o.
 	@date   2026.10.06
@@ -32,8 +32,8 @@ from odoo.http import request
 
 class SignupSalespersonHome(AuthSignupHome):
 
-    def do_signup(self, qcontext):
-        result = super().do_signup(qcontext)
+    def do_signup(self, qcontext, *args, **kwargs):
+        result = super().do_signup(qcontext, *args, **kwargs)
 
         login = qcontext.get('login')
         if login:
