@@ -35,4 +35,4 @@ Assigns a salesperson to a new website customer based on the language of the pag
 
 ## Status
 
-Source: client module (Odoo 18); detached from a client-specific signup module and now extends the standard `AuthSignupHome`. Odoo 18 build.
+Source: client module (Odoo 18); detached from a client-specific signup module and now extends the standard `AuthSignupHome`. Odoo 17 build.
